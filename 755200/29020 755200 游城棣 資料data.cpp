@@ -7,7 +7,7 @@ int main () {
     cout << "資料筆數: ";
     cin >> num;
     int count = num;
-    while(count > 0) {
+    while (count > 0) {
         cout << "第 " << num - count + 1 << " 筆資料: ";
         cin >> money;
         sum += money;
